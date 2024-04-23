@@ -1,0 +1,87 @@
+@font-face {
+    font-family: "Neucha";
+    src: url(C:\Users\Nadezda\Desktop\library);
+}
+
+header h1 {
+    color: black;
+    font-family: "Neucha";
+    font-size: 50px;
+    text-align: center;
+}
+
+body  {
+    background-color: white;
+}
+
+    .semilayer {
+        padding: 15px;
+        background: rgba(205, 214, 219, 0.3);
+        margin: 0 auto;
+        width: 90%;
+        height: auto;
+    }
+
+nav {
+    height: 25px;
+    width: auto;
+    font-size: 15pt;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    margin-top: 10px;
+}
+
+nav li {
+    margin: auto;
+    font-family: "Neucha";
+}
+
+nav a {
+    color: black;
+}
+
+.now {
+    background-color: rgba(205, 214, 219, 0.3);;
+    color: black;
+    padding: 8px;
+    border-radius: 10%;
+}
+
+.book_row {
+    width: auto;
+    height: 250px;
+    margin-bottom: 25px;
+}
+
+.book_photo {
+    width: 200px;
+    height: 250px;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    float: left;
+}
+
+.book_info {
+    width: auto;
+    height: 250px;
+    margin-left: 225px;
+}
+
+.book_info h2 {
+    font-size: 28px;
+    margin-top: 0;
+    margin-bottom: 15px;
+    font-family: Neucha;
+    color: black;   
+}
+
+.container h2 {
+    font-family: "Neucha";
+    font-weight: bold;
+}
+
+
